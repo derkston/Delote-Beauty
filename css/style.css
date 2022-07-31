@@ -1,0 +1,20 @@
+@import url(reset.css);
+@import url(text-style.css);
+
+/* Container */ 
+.container {
+	width: 100%;
+	max-width: 1300px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main {
+	flex-grow: 1;
+}
+header , footer {
+	flex-grow: 0;
+}

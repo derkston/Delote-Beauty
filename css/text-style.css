@@ -1,0 +1,65 @@
+@font-face {
+	font-family: Garamond;
+	src: url(../fonts/EBGaramond-Regular.woff2);
+}
+@font-face {
+	font-family: Garamond;
+	src: url(../fonts/EBGaramond-Bold.woff2);
+}
+
+@font-face {
+	font-family: CormorantGaramond;
+	src: url(../fonts/CormorantGaramond-Regular.woff2);
+}
+@font-face {
+	font-family: CormorantGaramond;
+	src: url(../fonts/CormorantGaramond-SemiBold.woff2);
+}
+@font-face {
+	font-family: CormorantGaramond;
+	src: url(../fonts/CormorantGaramond-Bold.woff2);
+}
+
+
+h1 {
+	font-family: Garamond;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 86px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: white;
+}
+
+/* name section */
+h2 {
+	font-family: Garamond;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	letter-spacing: 0em;
+	text-align: center;
+	color : white ;	
+}
+
+/* name product card or filter name */
+h3 {
+	font-family: Garamond;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+
+
+p {
+	font-family: CormorantGaramond;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	color : white ;
+}
