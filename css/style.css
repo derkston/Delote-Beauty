@@ -85,10 +85,11 @@ header , footer {
 	right: 0;
 	padding: 40px;
 	max-width: 475px;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: black;
 	flex-direction: column;
 	gap: 60px;
+	z-index: 3;
 }
 .contact__info.active {
 	display: flex;
@@ -249,7 +250,6 @@ section:not(section.master-sect){
 	width: 100%;
 	max-width: 395px;
 	height: 100%;
-	max-height: 300px;
 	border: 1px solid rgba(205, 170, 125, 1);
 	display: block;
 	position: absolute;
@@ -363,4 +363,19 @@ section:not(section.master-sect){
 	letter-spacing: 0em;
 	text-align: left;
 	margin: 7.5px 0px;
+}
+
+
+/* our masters */ 
+.our-masters .product__card h3 {
+	text-align: left;
+}
+.post {
+	margin-top: 10px;
+	font-family: CormorantGaramond;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
 }
